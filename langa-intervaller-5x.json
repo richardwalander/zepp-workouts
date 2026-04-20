@@ -1,6 +1,6 @@
 {
-  "username": "Richard Wålander",
-  "title": "Långa intervaller 5x4min/3min",
+  "username": "Richard W\u00e5lander",
+  "title": "L\u00e5nga intervaller 5x4min/3min",
   "description": "Zon 3-4 arbete, Z2 vila",
   "trainingIntervals": {
     "type": "PARENT",
@@ -70,5 +70,10 @@
     ]
   },
   "trainingTypeId": 1,
-  "trainingTypeName": "户外跑"
+  "trainingTypeName": "\u6237\u5916\u8dd1",
+  "modalities": [],
+  "appName": "com.xiaomi.hm.health",
+  "createdAt": 1755376215956,
+  "updatedAt": 1755376215956,
+  "status": "AVAILABLE"
 }
