@@ -1,0 +1,74 @@
+{
+  "username": "Richard Wålander",
+  "title": "Långa intervaller 3x4min/3min",
+  "description": "Zon 3-4 arbete, Z2 vila",
+  "trainingIntervals": {
+    "type": "PARENT",
+    "children": [
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "0",
+          "intervalUnit": "1",
+          "intervalUnitValue": "600",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "intervalDesc": "",
+          "intervalTypeI18nKey": "gapType_warmup",
+          "lengthUnitI18nKey": "gap_metric"
+        }
+      },
+      {
+        "type": "CIRCLE",
+        "children": [
+          {
+            "type": "NODE",
+            "trainingInterval": {
+              "intervalType": "1",
+              "intervalUnit": "1",
+              "intervalUnitValue": "240",
+              "alertRule": "0",
+              "alertRuleDetail": "0-0",
+              "lengthUnit": 0,
+              "intervalDesc": "",
+              "intervalTypeI18nKey": "gapType_training",
+              "lengthUnitI18nKey": "gap_metric"
+            }
+          },
+          {
+            "type": "NODE",
+            "trainingInterval": {
+              "intervalType": "2",
+              "intervalUnit": "1",
+              "intervalUnitValue": "180",
+              "alertRule": "0",
+              "alertRuleDetail": "0-0",
+              "lengthUnit": 0,
+              "intervalDesc": "",
+              "intervalTypeI18nKey": "gapType_rest",
+              "lengthUnitI18nKey": "gap_metric"
+            }
+          }
+        ],
+        "circleTimes": 3
+      },
+      {
+        "type": "NODE",
+        "trainingInterval": {
+          "intervalType": "4",
+          "intervalUnit": "1",
+          "intervalUnitValue": "600",
+          "alertRule": "0",
+          "alertRuleDetail": "0-0",
+          "lengthUnit": 0,
+          "intervalDesc": "",
+          "intervalTypeI18nKey": "gapType_relax",
+          "lengthUnitI18nKey": "gap_metric"
+        }
+      }
+    ]
+  },
+  "trainingTypeId": 1,
+  "trainingTypeName": "户外跑"
+}
